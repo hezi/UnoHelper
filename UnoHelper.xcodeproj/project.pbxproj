@@ -18,6 +18,8 @@
 		E7C44F331819323000A867A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C44F121819323000A867A1 /* Cocoa.framework */; };
 		E7C44F3B1819323000A867A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7C44F391819323000A867A1 /* InfoPlist.strings */; };
 		E7C44F3D1819323000A867A1 /* UnoHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C44F3C1819323000A867A1 /* UnoHelperTests.m */; };
+		E7C44F471819324900A867A1 /* change_dns.sh in Resources */ = {isa = PBXBuildFile; fileRef = E7C44F461819324900A867A1 /* change_dns.sh */; };
+		E7E79D401819719C0051A952 /* dns.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7E79D3F1819719C0051A952 /* dns.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		E7C44F381819323000A867A1 /* UnoHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnoHelperTests-Info.plist"; sourceTree = "<group>"; };
 		E7C44F3A1819323000A867A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7C44F3C1819323000A867A1 /* UnoHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnoHelperTests.m; sourceTree = "<group>"; };
+		E7C44F461819324900A867A1 /* change_dns.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = change_dns.sh; sourceTree = "<group>"; };
+		E7E79D3F1819719C0051A952 /* dns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dns.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +119,13 @@
 		E7C44F181819323000A867A1 /* UnoHelper */ = {
 			isa = PBXGroup;
 			children = (
+				E7C44F461819324900A867A1 /* change_dns.sh */,
 				E7C44F241819323000A867A1 /* HEZAppDelegate.h */,
 				E7C44F251819323000A867A1 /* HEZAppDelegate.m */,
 				E7C44F271819323000A867A1 /* MainMenu.xib */,
 				E7C44F2A1819323000A867A1 /* Images.xcassets */,
 				E7C44F191819323000A867A1 /* Supporting Files */,
+				E7E79D3F1819719C0051A952 /* dns.plist */,
 			);
 			path = UnoHelper;
 			sourceTree = "<group>";
@@ -232,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C44F1D1819323000A867A1 /* InfoPlist.strings in Resources */,
+				E7C44F471819324900A867A1 /* change_dns.sh in Resources */,
 				E7C44F2B1819323000A867A1 /* Images.xcassets in Resources */,
 				E7C44F231819323000A867A1 /* Credits.rtf in Resources */,
+				E7E79D401819719C0051A952 /* dns.plist in Resources */,
 				E7C44F291819323000A867A1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +473,7 @@
 				E7C44F421819323000A867A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7C44F431819323000A867A1 /* Build configuration list for PBXNativeTarget "UnoHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +482,7 @@
 				E7C44F451819323000A867A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

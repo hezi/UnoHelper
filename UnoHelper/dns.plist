@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>IP</key>
+		<string>8.8.8.8</string>
+		<key>name</key>
+		<string>Google</string>
+	</dict>
+	<dict>
+		<key>IP</key>
+		<string>149.154.157.61</string>
+		<key>name</key>
+		<string>UnoTelly Italy</string>
+	</dict>
+	<dict>
+		<key>IP</key>
+		<string>46.45.136.211</string>
+		<key>name</key>
+		<string>UnoTelly Turkey</string>
+	</dict>
+</array>
+</plist>

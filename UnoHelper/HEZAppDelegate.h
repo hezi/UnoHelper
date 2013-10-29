@@ -11,5 +11,6 @@
 @interface HEZAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) NSArray *DNSServers;
 
 @end
